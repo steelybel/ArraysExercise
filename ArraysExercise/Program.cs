@@ -88,7 +88,7 @@ namespace ArraysExercise
                 Console.WriteLine("7 - EPIC Game of Thrones Reference Funny!");
                 int.TryParse(Console.ReadLine(),out int chosenExercise);
                 Console.Clear();
-                if (chosenExercise <= 0 || chosenExercise > 6)
+                if (chosenExercise <= 0 || chosenExercise > 7)
                 {
                     Console.WriteLine("No exercise with that number.");
                     Console.ReadKey();
